@@ -1,4 +1,4 @@
 [submodule "api-definitions"]
 	path = api-definitions
 	url = https://github.com/Kr1ptal/emerald-grpc.git
-	branch = master-kriptal
+	branch = feature/token-api-kriptal
