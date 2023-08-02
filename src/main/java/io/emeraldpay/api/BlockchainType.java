@@ -12,12 +12,16 @@ public enum BlockchainType {
                 || chain == Chain.RSK
                 || chain == Chain.BSC
                 || chain == Chain.AVALANCHE
+                || chain == Chain.ARBITRUM
+                || chain == Chain.ARBITRUM_GOERLI
                 || chain == Chain.TESTNET_KOVAN
                 || chain == Chain.TESTNET_MORDEN
                 || chain == Chain.TESTNET_GOERLI
                 || chain == Chain.TESTNET_RINKEBY
                 || chain == Chain.TESTNET_ROPSTEN
-        ) {
+                || chain == Chain.TESTNET_MUMBAI
+                || chain == Chain.TESTNET_BSC
+                || chain == Chain.TESTNET_FUJI) {
             return BlockchainType.ETHEREUM;
         }
 
